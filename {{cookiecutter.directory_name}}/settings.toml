@@ -1,0 +1,7 @@
+[default]
+CURRENT_ENV = "@jinja {{this.current_env | lower}}" # development or production
+HOME_DIR = "@jinja {% raw -%} {{ env.HOME }} {%- endraw %}"
+DIR_INPUT="Entrada"
+DIR_OUTPUT="Saida"
+DEBUG = true
+LOG_MONITOR_EC15 = "logs/monitor_{{cookiecutter.directory_name}}.log"

@@ -1,5 +1,9 @@
 {
-    "directory_name": "directory_name",
-    "package": "package_name"
+    "directory_name": "projeto_base",
+    "author_name": "Author",
+    "mantainer_name": "Mantainer",
+    "author_email": "author@mail.com",
+    "mantainer_email": "author@mail.com",
+    "description": "Descrição do projeto"
 
 }
