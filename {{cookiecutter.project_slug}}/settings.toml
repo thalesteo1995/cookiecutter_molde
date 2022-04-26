@@ -4,4 +4,4 @@ HOME_DIR = "@jinja {% raw -%} {{ env.HOME }} {%- endraw %}"
 DIR_INPUT="Entrada"
 DIR_OUTPUT="Saida"
 DEBUG = true
-LOG_MONITOR_EC15 = "logs/monitor_{{cookiecutter.directory_name}}.log"
+LOG_MONITOR_EC15 = "logs/monitor_{{cookiecutter.project_slug}}.log"
