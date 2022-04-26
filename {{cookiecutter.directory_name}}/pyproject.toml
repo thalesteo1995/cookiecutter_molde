@@ -10,8 +10,23 @@ homepage = ""
 
 [tool.poetry.dependencies]
 python = "^3.8"
+mkdocs-material = "^8.2.11"
+tqdm = "^4.64.0"
+colorama = "^0.4.4"
+termcolor = "^1.1.0"
+halo = "^0.0.31"
+loguru = "^0.6.0"
+dynaconf = "^3.1.8"
+requests = "^2.27.1"
+black = "^22.3.0"
+mypy = "^0.942"
+isort = "^5.10.1"
+autopep8 = "^1.6.0"
+autoflake = "^1.4"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
+pre-commit = "^2.18.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
