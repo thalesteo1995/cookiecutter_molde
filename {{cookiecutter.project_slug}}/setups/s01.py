@@ -5,7 +5,7 @@
     Created:
 """
 def main():
-    print("Script s01!")
+    pass
 
 if __name__ == "__main__":
     main()
